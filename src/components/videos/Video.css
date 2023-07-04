@@ -1,0 +1,19 @@
+
+.video{
+    /* border:5px solid red; */
+    /* background-color: white; */
+    /* color:black; */
+    width:100%;
+    height:100%;
+    position:relative;
+    scroll-snap-align: start;
+    /* With this just a scroll can take u to next reel or next div.If we comment this, then on down arrow it will move not down but not to next div or reel in this case.  */
+}
+.video_player{
+    /* background-color: pink; */
+    object-fit:fill;
+    /* if object-fit is not applied the video player will not occupy whole container */
+    width:100%;
+    height:100%;
+
+}
