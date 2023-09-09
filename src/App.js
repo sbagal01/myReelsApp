@@ -23,7 +23,7 @@ function App() {
   useEffect(()=>{
       getData();
     //db.collection('video').onSnapshot((snapshot)=>setVideos(snapshot.docs.map((doc)=>doc.data()))
-    console.log("data is" +videos);
+    console.log("current data is " +videos);
     //console.log(videos[0].url)
     //console.log(videos[0].likes)
   },[])

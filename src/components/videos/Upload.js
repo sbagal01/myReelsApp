@@ -11,6 +11,7 @@ export default function Upload() {
       <Button variant="outlined" onClick={()=>{navigateTo("/add")}} component="label" size="normal" disableElevation sx={{margin:"10px"}}>
       Upload a Reel
     </Button>
+    
     </div>
   )
 }

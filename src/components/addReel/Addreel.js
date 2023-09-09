@@ -46,6 +46,10 @@ export default function Addreel() {
 
         <TextField sx={{margin :"10px"}} name="url" id="standard-basic" label="url" variant="standard" value={details.url} onChange={(e)=>{setDetails({...details,url:e.target.value})}} />
         <Button sx={{margin :"10px"}} variant="outlined" onClick={addHandler}>Outlined</Button>
+        
+        <Button variant="outlined" onClick={()=>{navigateTo("/reel")}} component="label" size="normal" disableElevation sx={{margin:"10px"}}>
+      Watch Reels
+    </Button>
       </Card>
     </Box>
   )
